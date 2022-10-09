@@ -18,7 +18,8 @@ A bot is an autonomous program that interacts with people or computer systems in
 ## create a language service in azure portal
 
 ### by using language service create a bot
-![Screenshot 2022-10-08 161103](https://user-images.githubusercontent.com/111121880/194703511-58fa1b53-bfd4-4d5a-8e3a-de201d02f6c4.png)
+![language service resorces](https://user-images.githubusercontent.com/101799696/194738828-93a3042f-87ad-47f8-98d6-469cbabe25ab.png)
+
 
 ![image](https://user-images.githubusercontent.com/111121880/194703605-1809de72-e132-4e41-8237-4a202b64bb7a.png)
 
@@ -51,16 +52,21 @@ A bot is an autonomous program that interacts with people or computer systems in
 
 
 1. Click Create to deploy the service. This step might take a few moments.
-  ![deploy knowledge base](https://user-images.githubusercontent.com/111121880/194706199-77c05479-7991-438f-9f85-a867e9b54e78.png)
+ ![create chatbot and add resource](https://user-images.githubusercontent.com/101799696/194738957-7dfbd7a5-b0cb-4a34-84ab-f63eef379911.png)
+
 
 1. select manage services
-![manage service in chattbot](https://user-images.githubusercontent.com/111121880/194705544-d6094618-b952-486c-a1da-3c255299f4ef.png)
+![create chatbot and add resource](https://user-images.githubusercontent.com/101799696/194738878-f5e56733-2111-4e76-b952-fd7f7bbc82b5.png)
+
 2. edit knowledge base
-![knowledge base](https://user-images.githubusercontent.com/111121880/194705600-3fafc476-89c1-46cb-9060-f7364fc99701.png)
+![knowledge base  ](https://user-images.githubusercontent.com/101799696/194738902-afc37188-6705-489d-89a1-0c3879785b02.png)
+
 3.deploy knowledge base
-![deploy knowledge base](https://user-images.githubusercontent.com/111121880/194705667-86fbdf99-8e9b-4912-ac64-7da38ad9273e.png)
+![deploy knowledge base ](https://user-images.githubusercontent.com/101799696/194738912-64ca586c-18e9-42c1-b05e-8722712d3a7e.png)
+
 4.create a web app bot
-![web app bot](https://user-images.githubusercontent.com/111121880/194705810-32a8e0fa-5437-47c2-93e4-01ca5b286187.png)
+![create a bot using web app bot](https://user-images.githubusercontent.com/101799696/194738923-fbcaecfd-dfc7-4114-b9ba-445c1626849e.png)
+
 
 
 
@@ -72,7 +78,7 @@ Don't close this **Publish** page. You need it later in the tutorial, to create 
 
 ### Use cURL to query for the default answer
 
-Any question that QnA Maker is not confident about receives the default answer. This answer is configured in the Azure portal. 
+Any question that is not confident about receives the default answer. This answer is configured in the Azure portal. 
 
 1. In the cURL-enabled terminal, replace `How large can my KB be?` with `x`. 
 
@@ -116,7 +122,8 @@ Create a bot as a client application for the knowledge base.
 
 ### Chat with the Bot
 
-![Screenshot 2022-10-08 163127 chat with bot](https://user-images.githubusercontent.com/111121880/194706337-cb1b2de5-2539-4373-bc4f-db09f0d775c1.png)
+![zz chat with bot](https://user-images.githubusercontent.com/101799696/194738853-893caac9-1994-4cd8-98ad-3a73f1e44917.png)
+
 
 
 
@@ -208,7 +215,8 @@ For the user query of `When is your birthday?`, each personality has a styled re
 
 Go back in **Test in Web Chat** on Azure Portal and chat with your bot.
 
-![Screenshot 2022-10-08 163127 chat with bot](https://user-images.githubusercontent.com/111121880/194704243-6369cc8f-c170-4cf1-8a6b-eb1972e178df.png)
+  ![zz chat with bot](https://user-images.githubusercontent.com/101799696/194738840-641ca630-dfba-47de-91e8-51180fe63d15.png)
+
 
 
 ## Clean up resources
